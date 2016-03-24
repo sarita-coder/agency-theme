@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+$font-cursive: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic);
+$font-sursive-imprent: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+$font-montserrat: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300);
+$font-roboto: "Roboto Slab", serif;
+$color-yellow:#fed136;
+$color-white:white;
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}

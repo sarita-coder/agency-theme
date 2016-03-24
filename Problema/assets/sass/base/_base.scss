@@ -1,0 +1,23 @@
+.pd-50{
+	padding-top: 50px;
+}
+section {
+	padding: 150px 0;
+	h3{
+		font-weight: 700;
+		font-family: $font-montserrat;
+		font-size: 4rem;
+	}
+	p{
+		font-style: italic;
+		font-family: $font-roboto;
+		padding-bottom: 80px;
+	}
+}
+p{
+	color: #777777;
+}
+.position-abs{
+	position: relative;
+}
+

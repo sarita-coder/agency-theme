@@ -1,0 +1,242 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title AGENCY THEME
+    link(rel="stylesheet", href="css/main.css")
+    link(rel="stylesheet", href="font-awesome/css/font-awesome.min.css")
+  body
+    // Fixed navbar
+    .navbar.navbar-fixed-top#navbar(role='navigation')
+      .container
+        .navbar-header
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand.logo(href='#') Strat Bootstrap
+        .navbar-collapse.collapse
+          ul.nav.navbar-nav.nav-ul.navbar-right
+            li
+              a(href='#servicio') SERVICES
+            li
+              a(href='#portfolio') PORTFOLIO
+            li
+              a(href='#about') ABOUT
+            li
+              a(href="#team") TEAM
+            li
+              a(href="#contact") CONTACT
+    //FIN HEADER
+    main.hero
+      .container.pd-50
+        .text-hero
+          p.p-hero-text Welcome To Our Studio!
+          h1 IT'S NICE TO MEET YOU
+          a.btn.more(href="") TELL ME MORE
+
+    section.servicio#servicio
+      .container
+        .row.text-center
+          h3 SERVICES
+          p Lorem ipsum dolor sit amet consectetur.
+        .row
+          .col-sm-4.text-center.service-col
+            a.fa-stack.fa-4x.circle-servicie
+              span.fa.fa-shopping-cart
+
+            h5 Responsive Design
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+
+          .col-sm-4.text-center.service-col
+            a.fa-stack.fa-4x.circle-servicie
+              span.fa.fa-laptop
+            h5 Web Security
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+
+          .col-sm-4.text-center.service-col
+            a.fa-stack.fa-4x.circle-servicie
+              span.fa.fa-lock
+            h5 E-Commerce
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+        //fin-servicie
+    section.portfolio
+      .container
+        .row.text-center
+          h3 PORTFOLIO
+          p Lorem ipsum dolor sit amet consectetur.
+          .col-sm-4.img-portfolio
+            .text-fortfolio
+              img.img-portfolio(src="../img/portfolio/1.png" width="100%")
+              h5 Round Icons
+              p Graphic Design
+            
+          .col-sm-4.img-portfolio
+            .text-fortfolio
+              img.img-portfolio(src="../img/portfolio/2.png" width="100%")
+              h5 Startup Framework
+              p Website Design
+            
+          .col-sm-4.img-portfolio
+            .text-fortfolio
+              img.img-portfolio(src="../img/portfolio/3.png" width="100%")
+              h5 Treehouse
+              p Website Design
+              
+          .col-sm-4.img-portfolio
+            .text-fortfolio
+              img.img-portfolio(src="../img/portfolio/4.png" width="100%")
+              h5 Round Icons
+              p Graphic Design
+          .col-sm-4.img-portfolio
+            .text-fortfolio
+              img.img-portfolio(src="../img/portfolio/5.png" width="100%")
+              h5 Round Icons
+              p Graphic Design
+              
+          .col-sm-4.img-portfolio
+            .text-fortfolio  
+              img.img-portfolio(src="../img/portfolio/6.png" width="100%")
+              h5 Round Icons
+              p Graphic Design
+    section#about
+      .container
+        .row.text-center
+          h3 ABOUT
+          p Lorem ipsum dolor sit amet consectetur.
+        .row.position-abs
+          ul.text-about
+            li.contenido-li
+              .img-circle-about
+                img.img-circle(src="../img/about/1.jpg")
+              .img-text-about
+                h5 2009-2011
+                h5 Our Humble Beginnings
+                p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga atque deserunt obcaecati vel iusto adipisci corporis, at ipsum aliquid beatae minus maiores neque officiis in maxime eveniet consequatur magnam, nam.
+            li.contenido-li
+              .img-circle-about
+                img.img-circle(src="../img/about/2.jpg")
+              .img-text-about
+                h5 MARCH 2011
+                h5 An Agency is Born
+                p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga atque deserunt obcaecati vel iusto adipisci corporis, at ipsum aliquid beatae minus maiores neque officiis in maxime eveniet consequatur magnam, na
+            li.contenido-li
+              .img-circle-about
+                img.img-circle(src="../img/about/3.jpg")
+              .img-text-about
+                h5 DECEMBER 2012
+                h5 Transition to Full Service
+                p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga atque deserunt obcaecati vel iusto adipisci corporis, at ipsum aliquid beatae minus maiores neque officiis in maxime eveniet consequatur magnam, na
+            li.contenido-li
+              .img-circle-about
+                img.img-circle(src="../img/about/4.jpg")
+              .img-text-about
+                h5 JULY 2014 
+                h5 Phase Two Expansion
+                p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga atque deserunt obcaecati vel iusto adipisci corporis, at ipsum aliquid beatae minus maiores neque officiis in maxime eveniet consequatur magnam, na
+            li.contenido-li
+              .img-circle-about
+                .img-circle-2
+                  h4 BE PART OF OUR STORY!
+              .img-text-about
+
+    section#team.team
+      .container
+        .row.text-center
+          h5 OURT AMAZING TEAM
+          p Lorem ipsum dolor sit amet consectetur.
+          .col-sm-4
+            img.img-circle(src="../img/team/1.jpg")
+            h5 Katy Garland
+            p Lead Designer
+            a.btn.red-social(href="")
+              span.fa.fa-twitter
+            a.btn.red-social(href="")
+              span.fa.fa-facebook
+            a.btn.red-social(href="")
+              span.fa.fa-linkedin
+
+          .col-sm-4
+            img.img-circle(src="../img/team/2.jpg")
+            h5 Katy Garland
+            p Lead Designer
+            a.btn.red-social(href="")
+              span.fa.fa-twitter
+            a.btn.red-social(href="")
+              span.fa.fa-facebook
+            a.btn.red-social(href="")
+              span.fa.fa-linkedin
+
+          .col-sm-4
+            img.img-circle(src="../img/team/3.jpg")
+            h5 Katy Garland
+            p Lead Designer
+            a.btn.red-social(href="")
+              span.fa.fa-twitter
+            a.btn.red-social(href="")
+              span.fa.fa-facebook
+            a.btn.red-social(href="")
+              span.fa.fa-linkedin
+        .row
+          p.separador-text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim excepturi vero magni soluta, dolores, illo sunt ea dolorem tempore a consequatur. Eius voluptate, maxime, blanditiis repudiandae sapiente quos autem excepturi!
+
+    section.lineas
+      .container
+        .row
+          .col-sm-3
+            img.img-lineas(src="../img/logos/envato.jpg" width="100%")
+          .col-sm-3
+            img.img-lineas(src="../img/logos/designmodo.jpg" width="100%")
+          .col-sm-3
+            img.img-lineas(src="../img/logos/themeforest.jpg" width="100%")
+          .col-sm-3
+            img.img-lineas(src="../img/logos/creative-market.jpg" width="100%")
+    section#contact.contact
+      .container
+        .row.text-center
+          h3 CONTACT US
+          p Lorem ipsum dolor sit amet consectetur.
+          .col-sm-6
+            form            
+              input.form-group( type="text", class="form-control-", id="exampleInputPassword1", placeholder="YOUR NAME*")
+              input.form-group( type="text" class="form-control-" id="exampleInputPassword1" placeholder="YOUR EMAIL*")
+              input.form-group(  type="text" class="form-control-" id="exampleInputPassword1" placeholder="YOUR PHONE*")
+          .col-sm-6
+            textarea.form-group(rows="10") YOUR MESSAGE*
+          a.btn.btn-send.more(url="") SEND MESSAGE
+    footer
+      .container
+        .row.text-center
+          .col-sm-4
+            p Copyright &#169; Your Website 2014 
+          .col-sm-4  
+            a.btn.red-social(href="")
+              span.fa.fa-twitter
+            a.btn.red-social(href="")
+              span.fa.fa-facebook
+            a.btn.red-social(href="")
+              span.fa.fa-linkedin
+          .col-sm-4 
+            div.enlace 
+              p Privacy Policy
+              p Terms of Use
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+    script(src='js/active.srcolls.js')
+    script(src='js/bootstrap.min.js')
+    
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+          

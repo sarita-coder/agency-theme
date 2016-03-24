@@ -1,0 +1,25 @@
+.logo{
+	font-family: $font-cursive;
+	color:$color-yellow;
+	font-size: 28px!important;
+}
+.navbar-right{
+	li{
+		a{
+			font-family: $font-montserrat;
+			color:$color-white;
+		}
+	}
+}
+.navbar-fixed-top{
+	padding-top: 45px;
+}
+#navbar.navbar2{
+	background: $color-yellow;
+	border-bottom:2px solid red;
+	color: white;
+	padding-top: 0px;
+	.logo{
+		color: white;
+	}
+}

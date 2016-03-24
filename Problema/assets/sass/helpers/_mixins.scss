@@ -1,0 +1,20 @@
+@mixin flex-justify-one {
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+@mixin btn-redes-social{
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background: #222222;
+		color: white;
+		text-align: center;
+		font-size: 20px;
+		margin-right: 10px;
+		span{
+			font-size: inherit;
+		}
+	}
