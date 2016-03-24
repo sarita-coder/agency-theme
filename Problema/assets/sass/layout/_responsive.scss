@@ -1,0 +1,22 @@
+@media screen and (max-width:768px) {
+	#navbar{
+		background: $color-yellow;
+		border-bottom:2px solid red;
+		color: white;
+		padding-top: 0px;
+		.logo{
+			color: white;
+		}
+	}
+	h1{
+		font-size: 4rem!important;
+	}
+	.text-about{
+	
+		li.contenido-li:nth-child(2n+1), li.contenido-li:nth-child(even) {
+		position: relative;
+		    width: 100%;
+		}
+	}
+
+}

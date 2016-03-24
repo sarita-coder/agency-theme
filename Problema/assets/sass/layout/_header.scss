@@ -12,6 +12,7 @@
 	}
 }
 .navbar-fixed-top{
+	position: relative;
 	padding-top: 45px;
 }
 #navbar.navbar2{
@@ -22,4 +23,7 @@
 	.logo{
 		color: white;
 	}
+}
+.icon-bar{
+	background: white;
 }

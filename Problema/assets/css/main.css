@@ -37,6 +37,7 @@ p {
   color: white; }
 
 .navbar-fixed-top {
+  position: relative;
   padding-top: 45px; }
 
 #navbar.navbar2 {
@@ -46,6 +47,9 @@ p {
   padding-top: 0px; }
   #navbar.navbar2 .logo {
     color: white; }
+
+.icon-bar {
+  background: white; }
 
 footer {
   padding: 20px 0; }
@@ -5914,7 +5918,7 @@ button.close {
   background: #fed136;
   width: 200px;
   height: 50px;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-top: 10px;
   font-weight: 700; }
@@ -5976,6 +5980,7 @@ button.close {
     padding-left: 100px; }
     .text-about li.contenido-li:nth-child(2n+1) .img-text-about h5 {
       font-weight: 700;
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-size: 2rem; }
     .text-about li.contenido-li:nth-child(2n+1) .img-text-about p {
       font-style: normal; }
@@ -5991,8 +5996,9 @@ button.close {
   .text-about li.contenido-li:nth-child(even) .img-text-about {
     width: calc(100% - 250px); }
     .text-about li.contenido-li:nth-child(even) .img-text-about h5 {
-      font-size: 2rem;
-      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      font-weight: 700;
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 2rem; }
     .text-about li.contenido-li:nth-child(even) .img-text-about p {
       font-style: normal; }
 .text-about li.contenido-li:last-child {
@@ -6014,15 +6020,15 @@ button.close {
     font-weight: 700;
     text-align: center; }
 
-section#team {
+#team {
   background: #f7f7f7; }
-  section#team h5 {
-    font-size: 2rem;
+  #team h5 {
     font-weight: 700;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-  section#team p {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2rem; }
+  #team p {
     padding-bottom: 10px; }
-  section#team a {
+  #team a {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -6032,7 +6038,7 @@ section#team {
     text-align: center;
     font-size: 20px;
     margin-right: 10px; }
-    section#team a span {
+    #team a span {
       font-size: inherit; }
 
 .separador-text {
@@ -6064,5 +6070,25 @@ section#team {
 ::selection {
   color: white;
   background: #fed136; }
+
+.nav-ul li .btn-nav:hover {
+  background: white;
+  color: black; }
+
+@media screen and (max-width: 768px) {
+  #navbar {
+    background: #fed136;
+    border-bottom: 2px solid red;
+    color: white;
+    padding-top: 0px; }
+    #navbar .logo {
+      color: white; }
+
+  h1 {
+    font-size: 4rem !important; }
+
+  .text-about li.contenido-li:nth-child(2n+1), .text-about li.contenido-li:nth-child(even) {
+    position: relative;
+    width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */

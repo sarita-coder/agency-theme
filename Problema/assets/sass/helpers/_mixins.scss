@@ -18,3 +18,15 @@
 			font-size: inherit;
 		}
 	}
+@mixin centrado{
+	width: 60%;
+	display: flex;
+	justify-content:space-between;
+	flex-direction:row-reverse;
+	padding-bottom: 50px;
+}
+@mixin title-h5 {
+	font-weight: 700;
+	font-family: $font-montserrat;
+	font-size: 2rem;
+}
